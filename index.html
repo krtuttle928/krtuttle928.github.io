@@ -3,33 +3,42 @@
 ​
 
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <meta charset="UTF-8">
   <title>Basic CSS Example</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  ​<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  
+
   <!-- Introducing the Style Tag! -->
   <!-- ========================== -->
   ​
   <!-- Now you can customize the look of your sites. Each rule in the style tag changes the appearance of its associated element (notice how each rule names an element from the HTML body). -->
   <style>
-    body{
-      background-image: url("Background_1.jpg");
-    }
-  
-    /*
-			NOTE: Commenting is a bit different in CSS. 
-		  They start with forward-slash + asterisk 
-		  and end with back-slash + asterisk.
-		  */
-    /* h1 heading tag */
+       body, html {
+       height: 100%;
+}
 
-    h1 {
-      /* Put a 15-pixel margin at the bottom of the heading. */
-      /* Change the size of your font to 60 pixels high. */
-      /* The background of the heading element will now be black. */
-     }
+          .bg {
+          /* The image used */
+         background-image: url("Mountains2.jpg");
+
+          /* Full height */
+         height: 100%;
+
+         /* Center and scale the image nicely */
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+}
+
+    h1 { 
+     
+      }
 
     /* h2 heading tags */
 
@@ -96,12 +105,20 @@
       align-items: center;
       justify-content: space-around;
     }
+
+    .text{
+      display: flex;
+      flex-direction: column;
+
+    }
   </style>
 </head>
-​
+​<body >
 
-<body >
-  ​
+  
+<div class="bg">
+ <div class="text">
+  
   <h1>
     <img src="Logo in White.png" alt=logo>
   </h1>  
@@ -110,8 +127,8 @@
   ​
   <p>Multi-disciplined designer with 10 years of experience.</p>
   <div class="main">
-    <p>About Me blahajjflsfjslkfjeljflwejfrlewjlew</p>
-    <img src="IMG_0888.jpg" alt="Katie" width="25%">
+    <p>About Me</p>
+    <img src="Katie.png" alt="Katie" width="25%">
 
   </div>
   ​
@@ -126,16 +143,9 @@
             d="M18 3h-12c-1.7 0-3 1.3-3 3v12c0 1.7 1.3 3 3 3h12c1.7 0 3-1.3 3-3v-12c0-1.7-1.3-3-3-3zm-6 6c1.7 0 3 1.3 3 3s-1.3 3-3 3-3-1.3-3-3 1.3-3 3-3zm3.8-2c0-.7.6-1.2 1.2-1.2s1.2.6 1.2 1.2-.5 1.2-1.2 1.2-1.2-.5-1.2-1.2zm2.2 12h-12c-.6 0-1-.4-1-1v-6h2c0 2.8 2.2 5 5 5s5-2.2 5-5h2v6c0 .6-.4 1-1 1z" />
         </svg>Product Design</a></li>
   </ul>
-  ​ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
-</body>
-​
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
