@@ -1,0 +1,81 @@
+h1 { 
+     
+}
+
+/* h2 heading tags */
+
+h2 {
+/* Put a 15-pixel margin at the top of all h2 headings. */
+margin-top: 15px;
+margin-bottom: 15px;
+font-size: 60px;
+text-align: center;
+font-family: 'Josefin Slab', serif;
+color:black;
+}
+
+/* h3 heading tags */
+
+h3 {
+margin-top: 15px;
+font-size: 20px;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+color:black;
+}
+
+/* All img tags */
+
+img {
+/* 
+          Center a block element in the middle of its enclosing tag.
+          When you use the "auto" rule on both left and right margins, 
+          your browser will do the math necessary to center a block element.
+          */
+/* Block display (more on this later) */
+
+}
+/* All containers */
+.text-container{
+    max-width:700px;
+}
+/* All p tags */
+
+p {
+text-align: center;
+font-size: 18px;
+/* Bold the text. */
+font-weight: light;
+color:black;
+font-family: 'Montserrat', sans-serif;
+}
+
+/* All unordered list tags */
+
+ul {
+text-align: center;
+font-size: 10px;
+font-family: 'Montserrat', sans-serif;
+/* Give an element a solid border. */
+border-style: solid;
+/* Render the border 5 pixels thick. */
+border-width: 5px;
+/* Include bullets in the content flow. */
+/* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
+list-style-position: inside;
+}
+
+.main {
+display: flex;
+flex-direction: row;
+}
+
+.text {
+    align-items: center;
+    max-width: 700px;
+}
+
+.hero{
+display: flex;
+flex-direction: row;
+}
